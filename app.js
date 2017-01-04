@@ -15,6 +15,7 @@ var milallos = require('./routes/milallos');
 var merchandise = require('./routes/merchandise');
 var photos = require('./routes/photos')
 var contactus = require('./routes/contactus');
+var about = require('./routes/about');
 
 
 var app = express();
@@ -40,6 +41,7 @@ app.use('/milallos', milallos);
 app.use('/merchandise', merchandise);
 app.use('/photos', photos);
 app.use('/contactus', contactus);
+app.use('/about', about);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
