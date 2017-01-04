@@ -6,11 +6,11 @@ html(lang='en')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     meta(name='description', content='')
     meta(name='author', content='')
-    title About the Band
+    title Live Bands
     // Bootstrap Core CSS
-    link(href='../stylesheets/bootstrapab.min.css', rel='stylesheet')
+    link(href='/stylesheets/bootstrap.min.css', rel='stylesheet')
     // Custom CSS
-    link(href='../stylesheets/full-width-pics.css', rel='stylesheet')
+    link(href='/stylesheets/full-slider.css', rel='stylesheet')
     // HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
     // WARNING: Respond.js doesn't work if you view the page via file://
     //if lt IE 9
@@ -36,56 +36,91 @@ html(lang='en')
             li
               a(href='/portfolio') Portfolio
             li
+              a(href='/#team') Team
+            li
               a(href='/#contact') Contact
         // /.navbar-collapse
       // /.container
-    // Full Width Image Header with Logo
-    // Image backgrounds are set within the full-width-pics.css file.
-    header.image-bg-fluid-height
-      img.img-responsive.img-center(src='../images/h.png', alt='')
-    // Content Section
-    section
-      .container
-        .row
-          .col-lg-12
-            h1.section-heading Biography
-            p.lead.section-lead The Beginning
-            p.section-paragraph
-              | Panic at the Disco (formed 2004)
-              | Panic at the Disco (formerly spelled Panic! at the Disco) is a band from Las Vegas. Their sound features various influences, such as electronica, rock, dance and punk. Panic at the Disco formed in Summerlin, Las Vegas. Ryan Ross (guitar) and Spencer Smith (drums) were childhood friends. They started off playing Blink-182 covers, in various guises, and then created the band 'Summer League' with Brent Wilson and Trevor (who has since left the band). At Palo Verde High School, Wilson met Brendon Urie and he was invited to play guitar for the band. When they heard him sing, however, he was instantly promoted to lead singer status.
-              | Pete Wentz, of Fall Out Boy signed Panic at the Disco to his Decaydance label after they sent him a link to their PureVolume site.
-    // Fixed Height Image Aside
-    // Image backgrounds are set within the full-width-pics.css file.
-    aside.image-bg-fixed-height
-    // Content Section
-    section
-      .container
-        .row
-          .col-lg-12
-            h1.section-heading The Rise to Fame
-            p
-              | Panic at the Disco's debut album, A Fever You Can't Sweat Out was released in 2005. Although the band gradually built a fanbase via MySpace and their PureVolume site, the album was not recognized on any significant commercial scale. In January 2006, the band was featured on MTV's Total Request Live show, where the video for 'I Write Sins, Not Tragedies' was shown for the first time.
-            p
-              | The video later won Video of the Year at the MTV Video Music Awards. The single reached number seven in the US charts. The band's newfound popularity saw them pushed up to second-billing on the Truckstops & Statelines Winter Tour in 2006 and their album outsold that of the headliner's (The Academy Is.) during the tour.Panic at the Disco's second single, 'But It's Better If You Do', was released in May 2006, peaking at number 23 in the UK charts.
-            p
-              | That same month, Brent Wilson left the band. He claims that he was fired, following an argument about the band's finances, but the rest of the band deny this. Jon Walker, a long-term friend of the band, took over Wilson's duties on bass following his departure. They underwent their first European headline tour, followed by a US tour supporting bands such as OK Go and the Dresden Dolls.
-            p
-              | In August 2006, A Fever You Can't Sweat Out was certified Platinum, as the album had sold over one million copies. That month, the band played at Reading Festival in England and Brendan Urie was temporarily knocked out, having been struck by a bottle thrown by an audience member.
-            p.lead.section-lead
-              | In late 2006, Panic at the Disco began touring with Bloc Party but Bloc Party were forced to pull out when drummer Matt Tong suffered a punctured lung. They were replaced with Plain White T's and then Cobra Starship. Panic at the Disco were featured on a special edition soundtrack to Tim Burton's animated film The Nightmare Before Christmas, covering 'This Is Halloween'. They also covered Smashing Pumpkins' 'Tonight, Tonight' for a compilation given away with Spin magazine in June 2007.
-            p.section-paragraph
-              | The band's second album was released in March 2008, entitled Prettty.Odd. Prior to the album's release, a series of puzzles appeared on the band's websites, revealing lyrics, artwork and samples from the album. The album reached number two in both the UK charts and the US charts. It was also a number one hit in Australia.
-        // /.row
-      // /.container
-    // Footer
-    footer
-      .container
+    // Full Page Image Background Carousel Header
+    header#myCarousel.carousel.slide
+      // Indicators
+      ol.carousel-indicators
+        li.active(data-target='#myCarousel', data-slide-to='0')
+        li(data-target='#myCarousel', data-slide-to='1')
+        li(data-target='#myCarousel', data-slide-to='2')
+        li(data-target='#myCarousel', data-slide-to='3')
+        li(data-target='#myCarousel', data-slide-to='4')
+        li(data-target='#myCarousel', data-slide-to='5')
+        li(data-target='#myCarousel', data-slide-to='6')
+      // Wrapper for Slides
+      .carousel-inner
+        .item.active
+          // Set the first background image using inline CSS below.
+          .fill(style="background-image:url('/images/img/patd.jpg');")
+          .carousel-caption
+            h2 Panic! At the Disco
+        .item
+          // Set the second background image using inline CSS below.
+          .fill(style="background-image:url('/images/img/atl.jpg');")
+          .carousel-caption
+            h2 All Time Low
+        .item
+          // Set the second background image using inline CSS below.
+          .fill(style="background-image:url('/images/img/para.jpg');")
+          .carousel-caption
+            h2 Paramore
+        .item
+          // Set the second background image using inline CSS below.
+          .fill(style="background-image:url('/images/img/fun.jpg');")
+          .carousel-caption
+            h2 FUN
+        .item
+          // Set the second background image using inline CSS below.
+          .fill(style="background-image:url('/images/img/taar.jpg');")
+          .carousel-caption
+            h2 The All American Rejects
+        .item
+          // Set the second background image using inline CSS below.
+          .fill(style="background-image:url('/images/img/day.jpg');")
+          .carousel-caption
+            h2 Green Day
+        .item
+          // Set the third background image using inline CSS below.
+          .fill(style="background-image:url('/images/img/fob.jpg');")
+          .carousel-caption
+            h2 Fall Out Boy
+      // Controls
+      a.left.carousel-control(href='#myCarousel', data-slide='prev')
+        span.icon-prev
+      a.right.carousel-control(href='#myCarousel', data-slide='next')
+        span.icon-next
+    // Page Content
+    .container
+      .row
+        .col-lg-12
+          h1 How much would it cost to book your favorite band?
+          h3 Panic! At the Disco: $50k +
+          h3 All Time Low: $50k +
+          h3 Fall Out Boy: $100-150k
+          h3 Paramore: $125-150k
+          h3 Greenday: $500k
+          h3 My Chemical Romance: 500k
+          h3 The All-American Rejects: $50-75k
+          h3 Fun: $200-400k
+      hr
+      // Footer
+      footer
         .row
           .col-lg-12.text-center
-            p Copyright © iLounge 2017
+            p Copyright © iLounge.co 2017
         // /.row
-      // /.container
+    // /.container
     // jQuery
-    script(src='javascripts/jqueryab.js')
+    script(src='/javascripts/jquery.js')
     // Bootstrap Core JavaScript
-    script(src='javascripts/bootstrapab.min.js')
+    script(src='/javascripts/bootstrap.min.js')
+    // Script to Activate the Carousel
+    script.
+      $('.carousel').carousel({
+      interval: 5000 //changes the speed
+      })
