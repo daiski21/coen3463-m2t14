@@ -1,0 +1,195 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    title iLounge-Home
+    // Bootstrap Core CSS
+    link(href='stylesheets/bootstrap.min.css', rel='stylesheet')
+    // Custom Fonts
+    link(href='stylesheets/font-awesome.min.css', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic', rel='stylesheet', type='text/css')
+    // Plugin CSS
+    link(href='stylesheets/magnific-popup.css', rel='stylesheet')
+    link(href='stylesheets/jquery.fancybox.css', rel='stylesheet')
+    link(href='stylesheets/animate.css', rel='stylesheet')
+    link(href='stylesheets/main.css', rel='stylesheet')
+    link(href='stylesheets/media-queries.css', rel='stylesheet')
+    link(href='stylesheets/font.css', rel='stylesheet')
+    // Theme CSS
+    link(href='stylesheets/creative.min.css', rel='stylesheet')
+    // HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+    // WARNING: Respond.js doesn't work if you view the page via file://
+    //if lt IE 9
+      script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+      script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
+  body#page-top
+    nav#mainNav.navbar.navbar-default.navbar-fixed-top
+      .container-fluid
+        // Brand and toggle get grouped for better mobile display
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+            span.sr-only Toggle navigation
+            |  Menu 
+            i.fa.fa-bars
+          a.navbar-brand.page-scroll(href='#page-top') iLounge.co
+        // Collect the nav links, forms, and other content for toggling
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li
+              a.page-scroll(href='#about') About
+            li
+              a.page-scroll(href='#services') Services
+            li
+              a.external(href='/portfolio') Portfolio
+            li
+              a.page-scroll(href='#team') Team
+            li
+              a.page-scroll(href='#contact') Contact
+        // /.navbar-collapse
+      // /.container-fluid
+    header
+      .header-content
+        .header-content-inner
+          h1#homeHeading Your Favorite Band's Itinerary: Seeing Your Favorite Acts
+          hr
+          p All you need to know about your favorite band is just one page away!
+          a.btn.btn-primary.btn-xl.page-scroll(href='#about') Find Out More
+    section#about.bg-primary
+      .container
+        .row
+          .col-lg-8.col-lg-offset-2.text-center
+            h2.section-heading Latest News!
+            hr.light
+            p.text-faded
+              b Panic! At The Disco are already working on a new album!!!
+              |  It's safe to say that Panic! At The Disco have had one hell of a 2016. With a No. 1 album on the Billboard 200 Chart, an impressive tour with Weezer and a Grammy nomination, the band definitely came out on top this year—and they're not slowing down.
+            a.page-scroll.btn.btn-default.btn-xl.sr-button(href='#services') Press this to PANIC!
+    section#services
+      .container
+        .row
+          .col-lg-12.text-center
+            h2.section-heading At Your Service
+            hr.primary
+      .container
+        .row
+          .col-lg-3.col-md-6.text-center
+            .service-box
+              i.fa.fa-4x.fa-diamond.text-primary.sr-icons
+              h3
+                a(href='/aboutband') About Bands
+              p.text-muted Were all in this together!
+          .col-lg-3.col-md-6.text-center
+            .service-box
+              i.fa.fa-4x.fa-paper-plane.text-primary.sr-icons
+              h3
+                a.bit-widget-initializer(href='http://t.umblr.com/redirect?z=http%3A%2F%2Fwww.bandsintown.com%2FPanic%21%2520At%2520The%2520Disco&t=ZmEyZTFkZGYwNzVlZmEyMzAyMWFlZWM3NWY4NjFlMDhhNjMxZmQ2YyxUbU4zdWpESg%3D%3D&p=&m=0', data-artist='Panic! At The Disco', data-affil-code='panicatthedisco') Tour
+              p.text-muted Know the updated Tour Dates!
+          .col-lg-3.col-md-6.text-center
+            .service-box
+              i.fa.fa-4x.fa-newspaper-o.text-primary.sr-icons
+              h3
+                a(href='/merchandise') Merch
+              p.text-muted Get them while they're HOT!
+          .col-lg-3.col-md-6.text-center
+            .service-box
+              i.fa.fa-4x.fa-heart.text-primary.sr-icons
+              h3
+                a.page-scroll(href='#Photos') Photos
+              p.text-muted Amazing photos of your band on tour!!
+    section#Photos
+    .container
+      .row
+        h2 Photos On Tour!  
+        br
+        br
+      .col-md-2
+         br
+         br
+         br
+         a.btn.btn-primary.btn-xl.page-scroll(href='/photos') More Photos
+      .row
+        .col-md-9
+          #media.carousel.slide.media-carousel
+            .carousel-inner
+              .item.active
+                .row
+                  .col-md-4
+                    thumbnail(href='#')
+                      img(alt='', src='../images/portfolio/fullsize/1.jpg')
+                  .col-md-4
+                    thumbnail(href='#')
+                      img(alt='', src='../images/portfolio/fullsize/2.jpg')
+                  .col-md-4
+                    thumbnail(href='#')
+                      img(alt='', src='../images/portfolio/fullsize/3.jpg')
+              .item
+                .row
+                  .col-md-4
+                    thumbnail(href='#')
+                      img(alt='', src='../images/portfolio/fullsize/4.jpg')
+                  .col-md-4
+                    thumbnail(href='#')
+                      img(alt='', src='../images/portfolio/fullsize/5.jpg')
+                  .col-md-4
+                    thumbnail(href='#')
+                      img(alt='', src='../images/portfolio/fullsize/6.jpg')
+              .item
+                .row
+                  .col-md-4
+                    thumbnail(href='#')
+                      img(alt='', src='../images/portfolio/fullsize/7.jpg')
+                  .col-md-4
+                    thumbnail(href='#')
+                      img(alt='', src='../images/portfolio/fullsize/8.jpg')
+                  .col-md-4
+                    thumbnail(href='#')
+                      img(alt='', src='../images/portfolio/fullsize/9.jpg')
+            a.left.carousel-control(data-slide='prev', href='#media') ‹
+            a.right.carousel-control(data-slide='next', href='#media') ›
+    br
+   
+    br
+    br 
+    aside.bg-dark
+    section#team
+      .container
+        h1 Team Members
+          .row
+            .col-md-1
+              figure.image1
+                img(src='/images/melvin.jpg', width='200', height='200')
+                a(href='/ampit')
+                    figcaption Melvin Ampit
+                    br
+                    br
+          .row     
+            .col-md-1 
+              figure.image2
+                img(src='/images/angela.jpg', rotate='90', width='200', height='200')
+                a(href='/milallos')
+                    figcaption Angela Milallos
+    section#contact
+      .container
+        .row
+          .col-lg-8.col-lg-offset-2.text-center
+            h2.section-heading Let's Get In Touch!
+            hr.primary
+            p
+              | Ready to start your next itinerary with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!
+          .col-lg-12.text-center
+            a.i.fa.fa-envelope-o.fa-3x.sr-contact(href='/contactus')
+    // jQuery
+    script(src='javascripts/jquery.min.js')
+    // Bootstrap Core JavaScript
+    script(src='javascripts/bootstrap.min.js')
+    // Plugin JavaScript
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js')
+    script(src='javascripts/scrollreveal.min.js')
+    script(src='javascripts/jquery.magnific-popup.min.js')
+    // Theme JavaScript
+    script(src='javascripts/creative.min.js')

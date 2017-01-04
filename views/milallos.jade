@@ -1,0 +1,102 @@
+doctype html
+html
+  head
+    title Milallos
+    link(rel='stylesheet', type='text/css', href='/stylesheets/bulma.css')
+    link(rel='stylesheet', type='text/css', href='/stylesheets/font.css')
+    link(rel='stylesheet', type='text/css', href='/stylesheets/holygrail.css')
+    // Bootstrap Core CSS
+    link(href='../stylesheets/bootstrap.min.css', rel='stylesheet')
+    // Custom CSS
+    link(href='../stylesheets/portfolio-item.css', rel='stylesheet')
+   // link(rel='stylesheet', href='/stylesheets/font-awesome.min.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/jquery.fancybox.css')
+    //link(rel='stylesheet', href='/stylesheets/main.css')
+  
+  body.HolyGrail
+    header
+      // Navigation
+    nav.navbar.navbar-inverse.navbar-fixed-top(role='navigation')
+      .container
+        // Brand and toggle get grouped for better mobile display
+        .navbar-header
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='/') iLounge.co
+        // Collect the nav links, forms, and other content for toggling
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          ul.nav.navbar-nav
+            li
+              a(href='/#services') Services
+            li
+              a(href='merchandise') Merchandise
+            li
+              a(href='/#contact') Contact
+
+        // /.navbar-collapse
+    .HolyGrail-body
+      main.HolyGrail-content
+        section.section
+          article.media
+            figure.media-left
+              p.image.is-128x128
+                img(src='/images/angela.jpg')
+            .media-content
+              .content
+                p
+                  strong Headline
+                  br
+                  strong Angela Milallos
+                  br
+                  |                 Chocolate doesn't ask questions, chocolate understands.
+                  br
+                  |                 Github/Facebook/Heroku - gelatto08
+                  br
+                  |                 Email Address - angelamilallos@gmail.com
+                br
+                p
+                  strong About Me
+                  br
+                  |                 I'm Angela Milallos a student in the Polytechnic University of the Philippines taking up Bachelor of Science in Computer Engineering. I like home making, hardware troubleshooting and pizza. Pizza is LIFE!
+                br
+                p
+                  strong List of Job Experience
+                  br
+                  ul
+                    li  Transcom Worldwide Philippines
+                    li  Philippine Health Insurance Company
+                br
+                p
+                  strong List of Projects
+                  br
+                  ul
+                    li  Automatic Dog Feeder in the 2016 in our Design Project subject
+                    li  EyeMo in our DSP subject
+                    li  Money Detector in our Microcontroller subject
+                    li  Neural Networks: Character Recognition
+                br
+                p
+                  strong List of Skills
+                  br
+                  ul
+                    li Proficient in Microsoft Office
+                    li Video editing using Vegas Pro
+                br
+      // <aside class="HolyGrail-ads">…</aside>
+    footer.footer
+      .container
+        .content.has-text-centered
+          p
+            strong Team 14
+            |  by 
+            a(href='http://www.github.com') Github
+            | . The source code is licensed
+            a(href='http://www.github.com')
+            | .
+          p.foot
+            a(href='http://www.github.com')
+              img(src='/images/git.png', width='32', height='32')

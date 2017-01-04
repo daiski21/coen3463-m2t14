@@ -1,0 +1,225 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    title Photos
+    // Bootstrap Core CSS
+    link(href='../stylesheets/bootstrap.min.css', rel='stylesheet')
+    // Custom CSS
+    link(href='../stylesheets/portfolio-item.css', rel='stylesheet')
+   
+    link(rel='stylesheet', href='/stylesheets/font-awesome.min.css')       
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')        
+    link(rel='stylesheet', href='/stylesheets/jquery.fancybox.css')        
+    link(rel='stylesheet', href='/stylesheets/main.css')
+
+
+    // HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+    // WARNING: Respond.js doesn't work if you view the page via file://
+    //if lt IE 9
+      script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+      script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
+  body
+    // Navigation
+    nav.navbar.navbar-inverse.navbar-fixed-top(role='navigation')
+      .container
+        // Brand and toggle get grouped for better mobile display
+        .navbar-header
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='/') iLounge.co
+        // Collect the nav links, forms, and other content for toggling
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          ul.nav.navbar-nav
+           
+            li
+              a(href='/#services') Services
+              
+            li
+              a(href='portfolio') Portfolio
+
+            li
+              a(href='/#contact') Contact
+
+        // /.navbar-collapse
+    section#services.services.clearfix
+      .container
+        .row
+          .sec-title.text-center
+            h2 Photos !!
+            .devider
+              i.fa.fa-heart-o.fa-lg
+          .sec-sub-title.text-center
+            p
+              "See them all. Don't Panic! xD"
+          .work-filter.wow.fadeInRight.animated(data-wow-duration='500ms')
+            ul.text-center
+              li
+                a.active.filter(href='javascript:;', data-filter='all') All
+              li
+                a.filter(href='javascript:;', data-filter='.florida') Florida
+              li
+                a.filter(href='javascript:;', data-filter='.utah') Utah
+              li
+                a.filter(href='javascript:;', data-filter='.texas') Texas
+              li
+                a.filter(href='javascript:;', data-filter='.california') California
+      .project-wrapper
+        figure.mix.work-item
+          img(src='/images/works/all-1.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/all-1.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 Don't Panic
+            p Photography
+        figure.mix.work-item.florida
+          img(src='/images/works/flo-1.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/flo-1.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 Don't Panic
+            p Photography
+        figure.mix.work-item.utah
+          img(src='/images/works/utah-1.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/utah-1.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 Don't Panic
+            p Photography
+        figure.mix.work-item.texas
+          img(src='/images/works/texas-1.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/texas-1.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 Don't Panic
+            p Photography
+        figure.mix.work-item.california
+          img(src='/images/works/cal-1.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/cal-1.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 Don't Panic
+            p Photography
+        figure.mix.work-item
+          img(src='/images/works/all-2.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/all-2.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 Don't Panic
+            p Photography
+        figure.mix.work-item.florida
+          img(src='/images/works/flo-2.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/flo-2.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 Don't Panic
+            p Photography
+        figure.mix.work-item.utah
+          img(src='/images/works/utah-2.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/utah-2.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 Don't Panic
+            p Photography
+        figure.mix.work-item.texas
+          img(src='/images/works/texas-2.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/texas-2.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 Don't Panic
+            p Photography
+        figure.mix.work-item.california
+          img(src='/images/works/cal-2.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/cal-2.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 Don't Panic
+            p Photography
+        figure.mix.work-item
+          img(src='/images/works/all-3.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/all-3.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 Don't Panic
+            p Photography
+        figure.mix.work-item.florida
+          img(src='/images/works/flo-3.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/flo-3.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 Don't Panic
+            p Photography
+        figure.mix.work-item.utah
+          img(src='/images/works/utah-3.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/utah-3.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 Don't Panic
+            p Photography
+        figure.mix.work-item.texas
+          img(src='/images/works/texas-3.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/texas-3.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 Don't Panic
+            p Photography
+        figure.mix.work-item.california
+          img(src='/images/works/cal-3.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/cal-3.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 Don't Panic
+            p Photography
+        figure.mix.work-item
+          img(src='/images/works/all-4.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/all-4.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 Don't Panic
+            p Photography
+        figure.mix.work-item.florida
+          img(src='/images/works/flo-4.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/flo-4.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 Don't Panic
+            p Photography
+        figure.mix.work-item.utah
+          img(src='/images/works/utah-4.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/utah-4.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 Don't Panic
+            p Photography
+        figure.mix.work-item.texas
+          img(src='/images/works/texas-4.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/texas-4.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 Don't Panic
+            p Photography
+        figure.mix.work-item.california
+          img(src='/images/works/cal-4.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/cal-4.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 Don't Panic
+            p Photography
+      footer
+        .row
+          .col-lg-12.text-center
+            p Copyright © iLounge.co 2017
+        // /.row
+    // /.container
+    script(src='../javascripts/jquery-1.11.1.min.js')
+    script(src='../javascripts/jquery.singlePageNav.min.js')
+    script(src='../javascripts/jquery.fancybox.pack.js')
+    script(src='../javascripts/jquery.mixitup.min.js')
+    script(src='../javascripts/custom.js')

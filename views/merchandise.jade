@@ -1,0 +1,195 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    title Merchandise
+    // Bootstrap Core CSS
+    link(href='../stylesheets/bootstrap.min.css', rel='stylesheet')
+    // Custom CSS
+    link(href='../stylesheets/portfolio-item.css', rel='stylesheet')
+   
+    link(rel='stylesheet', href='/stylesheets/font-awesome.min.css')       
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')        
+    link(rel='stylesheet', href='/stylesheets/jquery.fancybox.css')        
+    link(rel='stylesheet', href='/stylesheets/main.css')
+
+
+    // HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+    // WARNING: Respond.js doesn't work if you view the page via file://
+    //if lt IE 9
+      script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+      script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
+  body
+    // Navigation
+    nav.navbar.navbar-inverse.navbar-fixed-top(role='navigation')
+      .container
+        // Brand and toggle get grouped for better mobile display
+        .navbar-header
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='/') iLounge.co
+        // Collect the nav links, forms, and other content for toggling
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          ul.nav.navbar-nav
+            li
+              a(href='/#services') Services
+            li
+              a(href='/portfolio') Portfolio
+
+            li
+              a(href='/#contact') Contact
+
+        // /.navbar-collapse
+    section#services.services.clearfix
+      .container
+        .row
+          .sec-title.text-center
+            h2 Merchandise !
+            .devider
+              i.fa.fa-heart-o.fa-lg
+          .sec-sub-title.text-center
+            p
+              "Just pick what you want. !"
+          .work-filter.wow.fadeInRight.animated(data-wow-duration='500ms')
+            ul.text-center
+              li
+                a.active.filter(href='javascript:;', data-filter='all') All
+              li
+                a.filter(href='javascript:;', data-filter='.branding') Shirts
+              li
+                a.filter(href='javascript:;', data-filter='.web') Albums
+              li
+                a.filter(href='javascript:;', data-filter='.logo-design') logo design
+              li
+                a.filter(href='javascript:;', data-filter='.photography') photography
+      .project-wrapper
+        figure.mix.work-item.branding
+          img(src='/images/works/item-1.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/item-1.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 (P300.00-P400.00) depens on size.
+            p Photography
+        figure.mix.work-item.web
+          img(src='/images/works/album-1.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/album-1.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 (P600.00)
+            p Photography
+        figure.mix.work-item.logo-design
+          img(src='/images/works/logo-1.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/logo-1.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 (P10.00)
+            p Photography
+        figure.mix.work-item.photography
+          img(src='/images/works/photo-1.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/photo-1.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 (P50.00-P75.00)
+            p Photography
+        figure.mix.work-item.branding
+          img(src='/images/works/item-3.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/item-3.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 (P350.00-P400.00) depens on size.
+            p Photography
+        figure.mix.work-item.web
+          img(src='/images/works/album-2.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/album-2.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 (P800.00)
+            p Photography
+        figure.mix.work-item.logo-design
+          img(src='/images/works/logo-2.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/logo-2.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 (P15.00)
+            p Photography
+        figure.mix.work-item.photography
+          img(src='/images/works/photo-2.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/photo-2.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 (P45.00-P75.00)
+            p Photography
+        figure.mix.work-item.branding
+          img(src='/images/works/item-4.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/item-4.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 (P299.00-P350.00) depens on size.
+            p Photography
+        figure.mix.work-item.web
+          img(src='/images/works/album-3.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/album-3.jpg')
+              i.fa.fa-eye.fa-lgAlbum 1
+            h4 (P759.00)
+            p Photography
+        figure.mix.work-item.logo-design
+          img(src='/images/works/logo-3.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/logo-3.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 (P14.00)
+            p Photography
+        figure.mix.work-item.photography
+          img(src='/images/works/photo-3.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/photo-3.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 (P55.00-P70.00)
+            p Photography                               
+        figure.mix.work-item.branding
+          img(src='/images/works/item-5.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/item-5.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 (P275.00-P400.00) depens on size.
+            p Photography
+        figure.mix.work-item.web
+          img(src='/images/works/album-4.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/album-4.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 (P900.00)
+            p Photography
+        figure.mix.work-item.logo-design
+          img(src='/images/works/logo-4.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/logo-4.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 (P10.00)
+        figure.mix.work-item.photography
+          img(src='/images/works/photo-4.jpg', alt='')
+          figcaption.overlay
+            a.fancybox(rel='works', title='Write Your Image Caption Here', href='/images/works/photo-4.jpg')
+              i.fa.fa-eye.fa-lg
+            h4 (P60.00-P75.00)
+            p Photography         
+      
+      footer
+        .row
+          .col-lg-12.text-center
+            p Copyright © iLounge.co 2017
+        // /.row
+    // /.container
+    script(src='../javascripts/jquery-1.11.1.min.js')
+    script(src='../javascripts/jquery.singlePageNav.min.js')
+    script(src='../javascripts/jquery.fancybox.pack.js')
+    script(src='../javascripts/jquery.mixitup.min.js')
+    script(src='../javascripts/custom.js')

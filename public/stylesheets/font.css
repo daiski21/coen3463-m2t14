@@ -1,0 +1,68 @@
+.section{
+	background: url("/images/back.jpg");
+	color: white;
+}
+.notification figure {
+	position: relative;
+	margin: auto;
+	top:250px;
+}
+figcaption .cap {
+	position: relative;
+	right: 50px;
+	text-align: center;
+	width: 200px;
+}
+figcaption{
+	position: relative;
+	margin: auto;
+	top: 20px;
+	
+}
+nav , footer{
+	height: 75px;
+}
+footer {
+	color:black;
+}
+.nav-right a {
+	color: pink;
+}
+.image1 {
+	position: relative;
+	left: 200px;
+	top: 50px;
+
+}
+.image2 {
+	position: relative;
+	left: 650px;
+	top:-295px;
+}
+.image1 figcaption , .image2 figcaption  {
+	font-size: 25px;
+	position: relative;
+	left: 55px;
+}
+a {
+	color: black;
+}
+.image1 img {
+	border: 5px solid black;
+    border-radius: 4px;
+    border-radius: 50%;
+}
+.image2 img {
+	border: 5px solid black;
+    border-radius: 4px;
+    border-radius: 50%;
+}
+.media-left img {
+	border: 5px solid black;
+    border-radius: 4px;
+    border-radius: 50%;
+}
+figure .media-left {
+	position: relative;
+	top: -500px;
+}

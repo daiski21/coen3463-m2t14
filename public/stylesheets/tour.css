@@ -1,0 +1,1112 @@
+
+
+    /* BODY & STRUCTURE*/
+    body, html {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        background: #f1f8ff; 
+        margin:0px; 
+        font: 13px/1.8em "Arial", san-serif;
+    }
+    
+    a img {
+        border: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .promo {
+        line-height: 30px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #ff001a;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 25px;
+        width: 830px;
+        margin-top: -10px;
+    }
+    
+    .promomob {
+        line-height: 30px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #ff001a;
+        display: none; 
+        width: 600px; 
+        overflow: auto; 
+        margin-left: auto; 
+        margin-right: auto; 
+        text-align: center; 
+        font-size: 25px; 
+        font-weight: bold; 
+        margin-top: 30px;
+    }
+    
+    /* POSTS */
+    
+    .post {
+        border-radius: 4px;  
+        overflow:hidden; 
+        background: #ffffff; 
+        padding-left: 20px; 
+        padding-right: 20px; 
+        padding-top: 20px; 
+        padding-bottom: 20px; 
+        color: #000000; 
+        text-align: justify; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    
+    #imgpost {
+        margin-top: -14px;
+        width: 700px;
+    }
+    
+    #videopost {
+        margin-top: -3px;
+        width: 700px;
+    }
+    
+    .post-media {
+        border-radius: 4px;  
+        overflow:hidden; 
+        background: #ffffff; 
+        padding-bottom: 20px; 
+        color: #000000; 
+        text-align: justify; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    
+    .post-body {
+        font-size: 13px; 
+        color: #000000; 
+        line-height: 20px; 
+        padding-bottom: 10px; 
+        margin-bottom: 10px; 
+        overflow: auto;
+    }
+    
+    #post-text {
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+    
+    .player1 {
+        width: 775px;
+        height: 436px;
+    }
+    
+    .post-bottom {
+        overflow:hidden; 
+        margin-bottom: 20px; 
+        background: #ffffff; 
+        border-radius: 4px;  
+        width: 854px; 
+        padding-left: 9px; 
+        padding-right: 22px; 
+        padding-top: 9px; 
+        padding-bottom: 3px;
+        color: #000000; 
+        box-shadow: 0px 2px 7px #000; 
+        margin-top: -12px; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    
+    .post-header {
+        color: #9f5b62; 
+        font-size: 18px; 
+        text-transform: uppercase; 
+        background: none; 
+        height: 28px; 
+        text-align: left;
+    }
+    
+    .post-body p img, .post-body figure img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .posted {
+        color: #000000; 
+        font-size: 14px;
+    }
+    
+    .post-info {
+        font-size: 12px; 
+        clear: both;
+    }
+    
+    .posted a {
+        text-decoration: none;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 20px;
+        color: #0e1a29; 
+        text-decoration: none; 
+        text-transform: uppercase;
+    }
+    
+    .posted a:hover {
+        color: #72b8ff;
+    }
+    
+    .post-header a {
+        color: #000000; 
+        text-decoration: none; 
+        text-transform: uppercase; 
+        font-size: 15px;
+    }
+    
+    .post-header a:hover {
+        color: #9f5b62;
+    }
+    
+    .socialicons {
+        overflow: hidden; 
+        margin-bottom: 20px;
+        width: 300px; 
+        margin-top: 10px; 
+        color: #000000; 
+        text-align: center; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    
+    .post-body a {
+        color: #000000; 
+        text-decoration: none; 
+        font-weight: bold; 
+        font-size: 13px; 
+        font-weight: bold;
+    }
+    .post-body a:hover {
+        color: #72b8ff;
+    }
+    
+    .post-info a {
+        color: #89710a; 
+        text-decoration: none; 
+        font-weight: bold; 
+        font-size: 12px; 
+        font-weight: bold;
+    }
+    
+    .comments-notes {
+        float: right; 
+        width: 150px; 
+        margin-right: 10px; 
+        margin-top: 4px; 
+        text-align: right; 
+        font-size: 12px;
+        color: #ffffff;
+        font-weight: 300; 
+    }
+    
+    .comments-notes a {
+        font-size: 12px;
+        color: #90939a;
+        font-weight: 300; 
+        text-transform: uppercase;
+    }
+    
+    .comments-notes a:hover {
+        color: #9f5b62;
+    }
+    
+    .sideheader {
+        width:389px; 
+        height:45px;
+    }
+    
+    .side-holder {
+        text-align: center; 
+        width: 389px; 
+        margin-left: auto; 
+        margin-right: auto; 
+        margin-bottom: 20px; 
+        margin-top:10px
+    }
+    
+    .notes {
+        color: #000000;    
+    }
+    
+    .notes a {
+        color: #9f5b62;
+    }
+    
+    .post-notes-title {
+        margin-top: -10px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #000000;
+        text-align: left;
+    }
+    
+    #top {
+        width: 100%;
+        height: 97px;
+        padding-top: 10px;
+    }
+    
+    /* BANDS IN TOWN */
+    
+    .bit-buy-tix {
+      height: 100% !important;
+      width: 100% !important;
+      padding-top: 10px !important;
+    }
+    
+    .bit-buy-tix a {
+      color: #7e7e7e !important;
+    }
+    
+    .bit-buy-tix a:hover {
+      color: #000000;
+    }
+    
+    .bit-rsvp {
+      display: none;
+    }
+    
+    /* PAGINATION */
+    
+    #pag {
+        width: 400px;
+        overflow: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    #paginationcont {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        font-size: 16px;
+    
+    }
+    
+    #paginationprev {
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    
+    .pageof {
+        margin-top: 0px;
+        margin-left: 150px;
+        font-size: 18px;
+        color: #000000;
+        text-decoration: none;
+        float: left;
+        text-align: center;
+    }
+    
+    .pagination {
+        font-size: 16px;
+        color: #000000;
+        text-decoration: underline; 
+    }
+    
+    #notes {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 25px;
+        margin-top: 20px;
+        color: #000000;
+        background: #ffffff;
+        border-radius: 4px; 
+    }
+    
+    #notes h2 {
+        color: #000000;
+        margin-bottom: 40px;
+    }
+    
+    #notes a {
+        color: #000000;
+        font-weight: bold;
+    }
+    
+    #notes a:hover {
+        text-decoration: underline;
+    }
+    
+    img.avatar {
+        margin-right: 10px;
+    }
+    
+    #tourdates {
+        color: #ffffff;
+    }
+    
+    hr {
+        display: block; height: 1px;
+        border: 0; border-top: 1px solid #b4b4b4;
+        margin: 1em 0; padding: 0; 
+        clear: both;
+    }
+
+    #youtop {
+        width: 561px !important; 
+        height: 315px !important;
+    }
+    
+    
+    #reblog {
+        margin-top: 1px;
+        width: 30px;
+        float: right;
+    }
+    
+    
+    #timeago {
+        float: left;
+    }
+
+    #colcon {
+        width: 100%;
+        margin-left: auto; 
+        margin-right: auto; 
+        overflow: auto;
+        margin-top: 20px;
+    }
+
+    #leftcol {
+        display: block;
+        padding-bottom: 40px;
+        overflow: hidden;
+        width: 700px;
+        margin-left: auto; margin-right: auto;
+    }
+    
+    
+    
+    
+    #sharing {
+        border-radius: 4px; 
+        -webkit-box-shadow:0 1px 0 0 rgba(255,255,255,0.5) inset;
+        -moz-box-shadow:0 1px 0 0 rgba(255,255,255,0.5) inset;
+        box-shadow:0 1px 0 0 rgba(255,255,255,0.5) inset;
+        padding-top: 19px;
+        padding-left: 17px;
+        margin-top: -4px;
+        margin-bottom: 20px;
+        height: 38px;
+        background: #ffffff;
+        font-size:13px;color:#90939a;font-weight:300;
+    }
+    
+    #timeago a {
+        text-transform: uppercase;
+        font-size: 13px;
+        color: #90939a;
+        font-weight: 300;
+    }
+    
+    #timeago a:hover, .comments-notes a:hover {
+        color: #000000;
+    }
+    
+    a {
+        -webkit-transition:all 0.5s ease;
+      -ms-transition:all 0.5s ease;
+      -o-transition:all 0.5s ease;
+      transition:all 0.5s ease;
+    }
+    
+    #nextbtnskin {
+        text-align: right;
+        float: right;
+        width: 100px;
+        height: 24px;
+    }
+    
+    #prevbtnskin {
+        float: left;
+        width: 100px;
+        height: 24px;
+    }
+    
+    #nextbtn, #nextbtn a {
+        text-align: right;
+        color: #000000;
+        font-size: 20px;
+        width: 100px;
+        height: 24px;
+    }
+    
+    #nextbtn:hover {
+        color: #3e3e3e;
+    }
+    
+    #prevbtn, #prevbtn a {
+        color: #000000;
+        font-size: 20px;
+        width: 100px;
+        height: 24px;
+    }
+    
+    #prevbtn:hover {
+        color: #3e3e3e;
+    }
+    
+    
+    
+    #clear {
+        clear: both;
+        height: 20px;
+    }
+    
+    #sidehdr {
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 50px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+    }
+    
+    #logoskin {
+        width: 100%;
+        background: #362f2e;
+    }
+    
+    #logo {
+        background: #362f2e url('https://s3.amazonaws.com/musiccache/panicatthedisco/site/images2/patd_website_header.jpg') no-repeat top center;
+        font-size: 50px;
+        text-align: center;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        clear: both;
+        overflow: none;
+        width: 100%;
+        padding-top: 80px;
+        height:288px;
+    }
+    
+    .promo1 {
+        width: 428px;
+        margin-left: 600px;
+        margin-bottom: 100px;
+    }
+    
+    .promo1text {
+        font-family: 'Open Sans condensed', sans-serif;
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: none;
+        letter-spacing: 1px;
+    }
+    
+    .promo1btns {
+        margin-top: -10px;
+    }
+    
+    .promo1btns a img {
+        height: 25px !important;
+    }
+    
+    /* REGULAR MENU */
+    
+    #menu {
+        margin-left: auto;
+        margin-right: auto;
+        clear: both;
+        width: 800px;
+        height: 20px;
+        margin-top: 250px;
+    }
+    
+    #menu a {
+        font-family: 'Open Sans condensed', sans-serif;
+        font-size: 25px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: none;
+        color: #d0def3;
+        text-shadow: 2px 2px 3px #000000;
+    }
+    
+    #menu ul li {
+        float: left;
+        margin-right: 20px;
+        margin-top: 4px;
+    }
+    
+    #menu ul li:first-child {
+        margin-left: 50px;
+    }
+    
+    #menu a:hover {
+        color: #72b8ff;
+    }
+    
+    #menu ul {
+        margin-bottom: 20px;
+        float: left;
+        margin-left: 15px;
+        clear: both;
+        margin-top: 0px;
+        display: inline;
+        list-style: none;
+    }
+
+    
+    /* */
+    
+    #outnow {
+        margin-bottom: 20px;
+        background: url('https://s3.amazonaws.com/musiccache/panicatthedisco/tumblr/images2/outnow.png') no-repeat;
+        width: 567px;
+        height: 108px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    @-moz-document url-prefix() {
+        #outnow {
+            margin-top: 50px;
+            margin-bottom: 20px;
+            background: url('https://s3.amazonaws.com/musiccache/panicatthedisco/tumblr/images2/outnow.png') no-repeat;
+            width: 567px;
+            height: 108px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    
+    /* MOBILE NAVIGATION MENU */
+    
+    #menumob {
+        display: none;
+        background: #000000;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 60px;
+        cursor: pointer;
+    }
+    
+    #followmob {
+        margin-bottom: 15px;
+    }
+    
+    #followmob img {
+        width: 80px;
+        height: auto;
+    }
+    
+    #follow {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    
+    #list p {
+        margin-top: -15px;
+    }
+    
+    #list p a {
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+    
+    #list {
+        padding: none;
+        width: 100% !important;
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+        padding-left: 0px;
+        margin-bottom: -40px !important;
+        background: #050505;
+        width: 300px; 
+        cursor: pointer; 
+        margin-left: auto; 
+        margin-right: auto; 
+        text-align: center;
+        color: #ffffff; 
+        font-size: 40px;
+    }
+    
+    #mobnavtitle {
+        width: 300px; 
+        cursor: pointer; 
+        margin-left: auto; 
+        margin-right: auto; 
+        text-align: center; 
+        color: #ffffff;
+        height: 60px;
+        font-size: 40px; 
+        padding-top: 15px;
+        
+    }
+    
+    #mobnavtitletext {
+        text-align: center;
+        width: 150px;
+        height: 40px;
+        float: left;
+    }
+    
+    #list.open {
+      display: block;  
+    }
+    
+    #entire {
+        width:100%;
+    }
+    
+    .window { 
+       display: none;
+      color: white;
+      width: 100%;
+      background: #050505 url('https://s3.amazonaws.com/musiccache/panicatthedisco/tumblr/images2/menuicon.png') no-repeat top left;
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: -4px;
+      font-family: BlueHighway, Arial Black, sans-serif;
+    }
+    
+    .window label { 
+      display: block;
+      font-size: larger;
+      border-radius: 5px;
+      padding: .6rem;
+      transition: .4s all linear; 
+    }
+    .window label:hover { 
+      cursor: pointer; 
+    }
+    input.toggle ~ div {  
+      height: 0px; margin: .2rem;
+      overflow: hidden;
+      transition: .6s all cubic-bezier(0.730, -0.485, 0.145, 1.620)
+    }
+    input.toggle:checked ~ div { height: auto; }
+    input.toggle:checked + label { }
+    input.toggle { display: none; }
+    
+    #btnitunes {
+        float: left;
+        margin-left: 10px;
+    }
+    
+    /* CONTENT STYLING */
+    
+    #btnspotify {
+        float: left;
+        margin-left: 10px;
+    }
+    
+    #btnamazon {
+        float: left;
+        margin-left: 10px;
+    }
+    
+    #featured {
+        background: #fafafa;
+        color: #000000;
+        width: 360px;
+        height: 260px;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #edebeb;
+        box-shadow: 0px 3px 4px #edebeb;
+    }
+    
+    #pageyoutube {
+        width: 560px;
+        height: 315px;
+    }
+    
+    #featuredyoutube {
+        width: 300px;
+        height: 200px;
+    }
+    
+    #pagewrap {
+       width: 370px; margin-left: auto; margin-right: auto;
+    }
+    
+    #pageitunesbtn {
+       width: 110px; float: left; margin-left: 20px;
+    }
+    
+    #pagespotifybtn {
+       width: 110px; float: left; margin-left: 20px;
+    }
+    
+    #pageamazonbtn {
+       width: 110px; float: left;
+    }
+   
+    #dcd2 {
+        width: 700px; 
+        min-height: 80px; 
+        background: #ffffff; 
+        margin-left: auto; 
+        margin-right: auto; 
+        padding-top: 20px; 
+        padding-bottom: 20px; 
+        border-radius: 6px
+        clear: both;
+    }
+
+    #dcd2m {
+      width: 420px; 
+      min-height: 80px; 
+      background: #ffffff; 
+      margin-left: auto; 
+      margin-right: auto; 
+      padding-top: 20px; 
+      padding-bottom: 20px; 
+      border-radius: 6px
+      clear: both;
+    }
+    
+    
+    .tourflyer a img {
+        width: 655px;
+        height: 194px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+    #instagram-embed-0 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    
+    #itunesbtn {
+        width: 80px;
+        height: 30px;
+        float: left;
+        margin-left: 68px;
+        margin-top: 73px;
+    }
+    
+    #itunesbtn a {
+        width: 80px;
+        height: 30px;
+        display: block;
+    }
+    
+    #spotifybtn {
+        width: 93px;
+        height: 30px;
+        float: left;
+        margin-left: 7px;
+        margin-top: 73px;
+    }
+    
+    #spotifybtn a {
+        width: 93px;
+        height: 30px;
+        display: block;
+    }
+    
+    #amazonbtn {
+        width: 103px;
+        height: 30px;
+        float: left;
+        margin-left: 5px;
+        margin-top: 73px;
+    }
+    
+    #amazonbtn a {
+        width: 103px;
+        height: 30px;
+        display: block;
+    }
+    
+    #dcd2btn {
+        width: 53px;
+        height: 18px;
+        float: left;
+        margin-left: 5px;
+        margin-top: 80px;
+    }
+    
+    #dcd2btn a {
+        width: 53px;
+        height: 18px;
+        display: block;
+    }
+    
+    #islandbtn {
+        width: 58px;
+        height: 18px;
+        float: left;
+        margin-left: 7px;
+        margin-top: 80px;
+    }
+    
+    #islandbtn a {
+        width: 58px;
+        height: 18px;
+        display: block;
+    }
+    
+    /* MOBILE DEVICES */
+
+    @media only screen and (max-width: 900px) {
+            #videopost iframe {
+                width: 560px;
+            }
+            
+            #logo {
+                background: #362f2e url('https://s3.amazonaws.com/musiccache/panicatthedisco/site/images2/patdbg_tour_mobile.jpg') no-repeat center center;
+                background-size: 450px;
+                background-position: -20px;
+                height: 230px;
+                padding-top: 0px;
+            }
+            
+            .promo1 {
+                margin-left: 170px;
+            }
+            
+            .tourflyer a img {
+                width: 550px;
+                height: 163px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            #entire, #logo, #logoskin {
+                width: 100%;
+            }
+            
+            #menumob {
+                display: block;
+            }
+            
+            .promomob {
+                width: 600px;
+                overflow: none;
+            }
+            
+            .post {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            
+            .post-body p img, .post-body figure img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                
+            }
+            
+            #youtop {
+                width: 461px !important; 
+                height: 259px !important;
+            }
+            
+            #imgpost {
+                margin-top: -14px;
+                width: 560px;
+            }
+            
+            #videopost {
+                width: 560px;
+            }
+            
+            .photoset {
+                margin-top: -14px;
+                width: 560px;
+            }
+            
+            .photoset-img {
+                max-width: 560px;
+            }
+            
+            .window {
+                display: block;
+            }
+            
+            #menu {
+                display: none;
+            }
+            
+            #colcon, #leftcol, .promo {
+                width: 560px;
+            }
+            
+            .post-body, .post-body a.link {
+                font-size: 20px;
+            }
+
+            #sharing a {
+                font-size: 18px;
+                color: #000000;
+            }
+            
+            .comments-notes {
+                width: 150px;
+                margin-top: -2px;
+            }
+      
+            .promo {
+              display: none;
+            }
+            
+            .promomob {
+              display: block;
+            }
+            
+            iframe#tumblr_controls {
+                margin-top: 0px;
+            }
+            
+            #pageyoutube {
+                width: 460px !important;
+                height: 215px !important;
+            }
+            
+            #featuredyoutube {
+                width: 300px;
+                height: 200px;
+            }
+            
+            .tumblr_video_container iframe, .tumblr_video_container {
+                
+                width: 560px !important;
+                height: 314px !important;
+            }
+      
+        }
+    }
+    .tumblr_video_container, .tumblr_video_container iframe {
+        width: 700px !important;
+        height: 450px !important;
+        margin-top: -20px;
+    }
+    
+
+    @media print { .hide, .show { display: none; } }
+
+    #hnefd {position:fixed; float:right; top:3px; right:0px; width:150px;}
+</style>
+    
+    
+<!-- REAL TIME MOBILE JQUERY STYLING -->
+<script>
+  
+  $(window).resize(function(){
+      if ($(window).width() < 900) { 
+          $(".post-body").css("font-size", "20px");
+          $(".post-body a.link").css("font-size", "20px");
+          $("#sharing a").css("font-size", "18px");
+          $("#logo").css("width", "100%");
+          $("#logo").css("margin-left", "auto");
+          $("#logo").css("margin-right", "auto");
+          $("#menu").css("display", "none");
+          $("#dropmenu").css("display", "block");
+          $("#extrasmenu").css("display", "block");
+          $("#extrasmenu").css("margin-left", "470px");
+          $("#leftcol").css("width", "560px");
+          $("#colcon").css("width", "560px");
+          $(".promo").css("width", "600px");
+          $("#entire").css("width", "600px");
+          $(".window").css("display", "block");
+          $(".promo").css("display", "none");
+          $(".promomob").css("display", "block");
+                $(".tumblr_video_container ifram").css("width", "560px");
+          $(".tumblr_video_container ifram").css("height", "314px");
+          }
+  });
+  
+  $(window).resize(function(){
+      if ($(window).width() > 900) {
+          $(".post-body").css("font-size", "13px");
+          $(".post-body a.link").css("font-size", "13px");
+          $("#sharing a").css("font-size", "13px");
+          $(".window").css("display", "none");
+          $("#menu").css("display", "block");
+          $("#rightcol").css("display", "block");
+          $("#dropmenu").css("display", "none");
+          $("#extrasmenu").css("display", "none");
+          $("#leftcol").css("width", "700px");
+          $("#colcon").css("width", "1040px");
+          $(".promo").css("width", "830px");
+          $("#entire").css("width", "100%");
+          $(".promo").css("display", "block");
+          $(".promomob").css("display", "none");
+          $("#logo").css("width", "1200px");
+          $("#logoskin").css("width", "100%");
+      
+    }
+  }); 
+    
+</script>
+
+<!-- END REAL TIME MOBILE JQUERY STYLING -->
+
+<!-- DCD2 BANDS -->
+
+<script>
+    $( document ).ready(function() {  
+        $.get("https://s3.amazonaws.com/musiccache/dcd2/bands/dcd2.html", function(data) {
+            $("#dcd2").html(data);
+        });
+    });
+</script>
+
+<script>
+    $( document ).ready(function() {  
+        $.get("https://s3.amazonaws.com/musiccache/dcd2/bands/dcd2m.html", function(data) {
+            $("#dcd2m").html(data);
+        });
+    });
+</script>
+
+<!-- END DCD2 BANDS -->
+
+<link rel="stylesheet" href="http://feature.atlrec.com/panic_atthedisco/tumblr/mlist/css/mlist.css"> 
+<style>
+    html {
+        box-sizing: content-box; 
+    }
+    *, *::after, *::before {
+        box-sizing: inherit;
+    }
+    
+    .mailing-list input,
+    .select-wrapper .select-input {
+        border: none;
+    }
+    
+    .mlist-signup-form {
+        margin-bottom: 20px;
+    }
+    
+    .mailing-list-heading {
+        background: none;
+        color: #5f5f66;
+    }
+    
+    .mailing-list input[type="submit"] {
+        background: #5f5f66;   
+    }
+    .mlist-outer-wrapper {
+        padding-bottom: 5px;
+    }
+
